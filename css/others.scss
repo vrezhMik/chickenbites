@@ -1,0 +1,98 @@
+body {
+  header,
+  footer {
+    .langs {
+      a {
+        margin-top: 15px !important;
+        font-family: "PThin";
+        font-weight: bold;
+        margin-right: 4px;
+        font-size: 14px;
+        &::after {
+          content: " /";
+        }
+        &:nth-child(3) {
+          &::after {
+            content: " ";
+          }
+        }
+      }
+    }
+  }
+}
+
+@-webkit-keyframes runing-row {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@-webkit-keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.page_main {
+  width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 750px;
+  .page_img {
+    &:before,
+    &:after {
+      content: "";
+      height: 2px;
+      width: 250px;
+      background-color: #ffb71b;
+      display: block;
+      margin: 0 auto;
+    }
+    img {
+      margin-top: 32px;
+      width: 100%;
+      margin-bottom: 32px;
+    }
+    h1 {
+      margin: 0;
+      font-weight: 400;
+      font-size: 41.89px;
+      line-height: 42px;
+      text-align: center;
+      color: #425cc7;
+      margin-bottom: 28px;
+    }
+  }
+  .page_cont {
+    &:after {
+      content: "";
+      height: 2px;
+      width: 250px;
+      background-color: #ffb71b;
+      display: block;
+      margin: 0 auto;
+    }
+    .cont {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #4a4a4a;
+      margin: 32px 0;
+    }
+  }
+}

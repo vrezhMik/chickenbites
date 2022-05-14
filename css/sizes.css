@@ -1,0 +1,121 @@
+@media screen and (max-width: 810px) {
+  body header a {
+    font-size: 12px;
+  }
+  body header .langs a {
+    margin-top: 15px !important;
+    font-family: "PThin";
+    font-weight: bold;
+    margin-right: 1px;
+  }
+  body header .langs a::after {
+    content: " /";
+  }
+  body header .langs a:nth-child(3)::after {
+    content: " ";
+  }
+  body .slider p {
+    margin: 132px 50px;
+  }
+  body main nav ul li button img {
+    width: 90px;
+    height: 60px;
+  }
+  body main .sides .sides_titles {
+    gap: 173px;
+  }
+  body main .feedback_form {
+    margin-left: 170px;
+    right: -20px;
+  }
+  body footer .footer_cont .foot_section .foot_text {
+    width: 100%;
+  }
+  body footer .footer_cont .foot_section .foot_text a {
+    font-size: 30px;
+  }
+  body footer .footer_cont .foot_section .foot_logo {
+    right: -21px;
+  }
+}
+@media screen and (max-width: 430px) {
+  body header {
+    padding: 0 20px;
+  }
+  body header .langs {
+    margin-left: 50px;
+  }
+  body header .burger_menu button i {
+    color: #0a58ca;
+  }
+  body header .burger_menu .menu {
+    background: #fff;
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    display: none;
+  }
+  body header .burger_menu .menu div ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+  }
+  body header .burger_menu .menu div ul li {
+    display: block;
+    padding: 5px 0 5px 0;
+  }
+  body header .burger_menu .menu div ul li a {
+    text-decoration: none;
+    margin: 0px;
+    color: #0a58ca;
+    margin: 0;
+  }
+  body .slider .myslider {
+    font-size: 41.89px;
+  }
+  body main nav {
+    padding: 0px 20px 5px 20px;
+    overflow: hidden;
+  }
+  body main nav ul div li button img {
+    width: 54.33px;
+    height: 54px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  body main .products {
+    padding: 0 30px;
+  }
+  body main .products .product {
+    height: 387px !important;
+  }
+  body main .products .product .prod_img img {
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+  body main .sides {
+    padding: 0 10px;
+  }
+  body main .sides h1 {
+    font-size: 25.89px;
+  }
+  body main .sides .sides_titles {
+    padding: 0 !important;
+    gap: 0 !important;
+  }
+  body main .sides .sides_titles .first_side {
+    width: 30% !important;
+    text-align: center !important;
+  }
+  body main .sides .sides_titles .second_side {
+    width: 100%;
+    text-align: center !important;
+  }
+  body main .feedback_form {
+    right: -65px;
+    margin-left: 0 !important;
+    width: 100% !important;
+    height: 382px !important;
+  }
+}/*# sourceMappingURL=sizes.css.map */

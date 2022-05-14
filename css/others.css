@@ -1,0 +1,85 @@
+body header .langs a,
+body footer .langs a {
+  margin-top: 15px !important;
+  font-family: "PThin";
+  font-weight: bold;
+  margin-right: 4px;
+  font-size: 14px;
+}
+body header .langs a::after,
+body footer .langs a::after {
+  content: " /";
+}
+body header .langs a:nth-child(3)::after,
+body footer .langs a:nth-child(3)::after {
+  content: " ";
+}
+
+@-webkit-keyframes runing-row {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@-webkit-keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.page_main {
+  width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 750px;
+}
+.page_main .page_img:before, .page_main .page_img:after {
+  content: "";
+  height: 2px;
+  width: 250px;
+  background-color: #ffb71b;
+  display: block;
+  margin: 0 auto;
+}
+.page_main .page_img img {
+  margin-top: 32px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+.page_main .page_img h1 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 41.89px;
+  line-height: 42px;
+  text-align: center;
+  color: #425cc7;
+  margin-bottom: 28px;
+}
+.page_main .page_cont:after {
+  content: "";
+  height: 2px;
+  width: 250px;
+  background-color: #ffb71b;
+  display: block;
+  margin: 0 auto;
+}
+.page_main .page_cont .cont {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4a4a4a;
+  margin: 32px 0;
+}/*# sourceMappingURL=others.css.map */

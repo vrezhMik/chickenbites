@@ -1,0 +1,236 @@
+.cr {
+  font-family: "CRegular";
+}
+.pr {
+  font-family: "PRegular";
+}
+.psb {
+  font-family: "PSemiBold";
+}
+.pt {
+  font-family: "PThin";
+  font-weight: bold;
+}
+iframe .place-card.place-card-large {
+  display: none !important;
+}
+
+.active {
+  display: block !important;
+}
+.active_img {
+  filter: invert(75%) sepia(27%) saturate(3433%) hue-rotate(315deg)
+    brightness(103%) contrast(101%);
+}
+
+.hide {
+  display: none !important;
+}
+
+.pressed {
+  color: #ff8d6b;
+}
+
+.sfsi_wDiv {
+  width: auto !important;
+}
+.sfsi_widget {
+  float: right !important;
+  filter: brightness(0) invert(1);
+}
+.successBox {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 67%;
+  text-align: center;
+  p {
+    font-size: 33px;
+    color: #fff;
+    margin-top: 40px;
+  }
+}
+.text-align-right {
+  text-align: right;
+}
+
+.langs {
+  align-self: flex-start;
+}
+
+.blank {
+  height: 10px;
+}
+
+.feedback_form {
+  margin: 0 auto;
+  height: 392px;
+  width: 441px;
+  margin-top: 32px;
+  background: url("../img/chicken.png");
+  background-size: contain;
+  position: relative;
+  margin-bottom: 56px;
+  right: -75px;
+  form {
+    width: 277.49px;
+    height: 306.8px;
+    position: absolute;
+    bottom: -18px;
+    color: #fff;
+    text-align: center;
+
+    h1 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25.89px;
+      line-height: 25px;
+      margin: 16px 10.5px 10px 10.5px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      margin: 0;
+    }
+    .radio_input {
+      justify-content: space-around;
+      margin-bottom: 10px;
+      .radio_option {
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        input[type="radio"] {
+          accent-color: #e65300;
+        }
+        label {
+          font-weight: 400;
+          font-size: 8px;
+          line-height: 12px;
+        }
+      }
+    }
+    input[type="text"],
+    input[type="email"] {
+      border-bottom: 1px solid #fff;
+      outline: none;
+      color: #fff;
+      font-size: 12px;
+      width: 85%;
+      margin-bottom: 10px;
+      &::placeholder {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.7);
+        font-family: "PRegular";
+      }
+    }
+    button {
+      color: #fff;
+      text-transform: capitalize;
+      border-bottom: 1px solid #fff;
+    }
+  }
+}
+.map {
+  .ifram_title {
+    background: #cad1ea;
+    color: #fff;
+    padding: 15px 20px;
+    height: 110px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    z-index: 2;
+    position: relative;
+    h1 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 41.89px;
+      line-height: 42px;
+      text-align: center;
+    }
+  }
+  iframe {
+    width: 100% !important;
+    height: 281px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  }
+}
+
+.footer_menu {
+  div {
+    ul {
+      display: flex;
+      li {
+        &::after {
+          content: " ";
+          height: 20px;
+          width: 1px;
+          display: inline-block;
+          background: #fff;
+          position: relative;
+          margin-left: 8px;
+          top: 5px;
+          margin-right: 8px;
+        }
+        &:last-child {
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.right_section {
+  row-gap: 70px;
+}
+.left_section {
+  row-gap: 30px;
+}
+.footer_menu,
+.social,
+.foot_langs,
+.sfsi_widget {
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+}
+.social {
+  flex-direction: column;
+}
+
+.foot_langs {
+  a {
+    font-family: "PRegular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    display: inline-block;
+
+    &:after {
+      content: " ";
+      height: 14px;
+      width: 1px;
+      display: inline-block;
+      background: #fff;
+      position: relative;
+      margin-left: 10px;
+      top: 2px;
+      margin-right: 10px;
+    }
+    &:nth-child(3) {
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
